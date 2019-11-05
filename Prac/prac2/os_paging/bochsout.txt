@@ -1,0 +1,58 @@
+00000000000i[MEM0 ] allocated memory at 0271B020. after alignment, vector=0271C000
+00000000000i[MEM0 ] 32.00MB
+00000000000i[MEM0 ] rom at 0xf0000/65536 ('BIOS-bochs-latest')
+00000000000i[MEM0 ] rom at 0xc0000/32768 ('VGABIOS-elpin-2.40')
+00000000000i[CMOS ] Setting initial clock to: Mon Oct 28 17:18:05 2019 (time0=1572279485)
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[FDD  ] fd0: 'image.bin' ro=0, h=2,t=80,spt=18
+00000000000i[VGA  ] interval=300000
+00000000000i[VGA  ] VBE Bochs Display Extension Enabled
+00000000000i[     ] init_mem of 'harddrv' plugin device by virtual method
+00000000000i[     ] init_mem of 'keyboard' plugin device by virtual method
+00000000000i[     ] init_mem of 'serial' plugin device by virtual method
+00000000000i[     ] init_mem of 'parallel' plugin device by virtual method
+00000000000i[     ] init_mem of 'sb16' plugin device by virtual method
+00000000000i[     ] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] Boot device will be 'a'
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[     ] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[     ] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x3f8/8 irq 4
+00000000000i[     ] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x378
+00000000000i[     ] init_dev of 'sb16' plugin device by virtual method
+00000000000i[SB16 ] midi=1,/dev/midi00  wave=1,/dev/dsp  log=2,sb16.log  dmatimer=600000
+00000000000i[DMA  ] channel 1 used by SB16
+00000000000i[     ] reset of 'harddrv' plugin device by virtual method
+00000000000i[     ] reset of 'keyboard' plugin device by virtual method
+00000000000i[     ] reset of 'serial' plugin device by virtual method
+00000000000i[     ] reset of 'parallel' plugin device by virtual method
+00000000000i[     ] reset of 'sb16' plugin device by virtual method
+00000004325i[BIOS ]  rombios.c,v 1.103.2.2 2004/02/02 22:39:22 cbothamy Exp $
+00000318066i[KBD  ] reset-disable command received
+00000475358e[HD   ] device set to 0 which does not exist
+00000475651e[HD   ] device set to 1 which does not exist
+00459152325i[WGUI ] &&&missing mouse state change
+-1575392592p[WGUI ] >>PANIC<< POWER button turned off.
+-1575392592i[SYS  ] Last time is 1572286499
+-1575392592i[CPU  ] protected mode
+-1575392592i[CPU  ] CS.d_b = 32 bit
+-1575392592i[CPU  ] SS.d_b = 32 bit
+-1575392592i[CPU  ] | EAX=00000007  EBX=004f0048  ECX=0000173c  EDX=0014000d
+-1575392592i[CPU  ] | ESP=00007bf8  EBP=00000000  ESI=00010020  EDI=00000013
+-1575392592i[CPU  ] | IOPL=0 NV UP EI PL ZR NA PE NC
+-1575392592i[CPU  ] | SEG selector     base    limit G D
+-1575392592i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+-1575392592i[CPU  ] |  DS:0010( 0002| 0|  0) 00000000 000fffff 1 1
+-1575392592i[CPU  ] |  ES:0010( 0002| 0|  0) 00000000 000fffff 1 1
+-1575392592i[CPU  ] |  FS:0010( 0002| 0|  0) 00000000 000fffff 1 1
+-1575392592i[CPU  ] |  GS:0010( 0002| 0|  0) 00000000 000fffff 1 1
+-1575392592i[CPU  ] |  SS:0018( 0003| 0|  0) 00000000 00000000 1 1
+-1575392592i[CPU  ] |  CS:0008( 0001| 0|  0) 00000000 000fffff 1 1
+-1575392592i[CPU  ] | EIP=0000a183 (0000a183)
+-1575392592i[CPU  ] | CR0=0xe0000011 CR1=0x00000000 CR2=0x00000000
+-1575392592i[CPU  ] | CR3=0x00109000 CR4=0x00000000
+-1575392592i[     ] restoring default signal behavior
+-1575392592i[CTRL ] quit_sim called with exit code 1
